@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-flow: row;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(291, 22%, 36%);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container {
+    display: flex;
+    position: fixed;
+    margin-top: 3%;
+    padding: 20px;
+    width: 22%;
+    background-color: gold;
+    flex-wrap: wrap;
+    border: 1px solid rgb(2, 29, 5);
+    border-radius: 6px;
+    box-shadow: 0 6px 9px 2px rgba(0, 0, 8);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ff0000;
+    padding: 10px;
+    width: 100vw;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 2em;
+    border: 1px solid #110c07;
+}
+
+#ortaAlan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#numberButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    margin: 1%;
+    padding: 7px 7px;
+    flex-wrap: wrap;
+    width: 23%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid #f08808;
+    border-radius: 6px;
+    background-color: rgb(255, 215, 00);
+    margin-bottom: 15px;
+    box-shadow: 0 6px 9px 2px rgba(0, 0, 8);
+}
+
+.reset {
+    background-color: rgb(119, 37, 212);
+}
+
+.operation {
+    background-color: rgb(119, 37, 212);
+}
+
+.egalButon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.egalButon>button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #8f5004;
+
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(19, 0, 0);
+    border: 1px solid #f08808;
+    border-radius: 6px;
+    background-color: rgb(119, 37, 212);
+    margin-bottom: 15px;
+    box-shadow: 0 6px 9px 2px rgba(0, 0, 8);
+}
+
+button:hover {
+    background-color: rgb(236, 109, 12);
+    text-shadow: 1px 1px 1px #000000;
+}
